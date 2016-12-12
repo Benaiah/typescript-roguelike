@@ -10,5 +10,6 @@ module.exports = {
     loaders: [
       { test: /\.ts$/, loader: 'ts-loader' }
     ]
-  }
+  },
+  devtool: 'source-map'
 }
